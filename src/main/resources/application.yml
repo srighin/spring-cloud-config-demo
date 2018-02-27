@@ -1,0 +1,11 @@
+server:
+  port: 9000
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/srighin/repository.git
+          username: srighin
+          password: Sriman@01
+          search-paths: eventmanagement-api
